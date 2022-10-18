@@ -230,16 +230,23 @@ for simulation in range(simulations):
     game_11 = Game(tri_county_1, lakeshore_2, True)
     game_12 = Game(bluewater, york_simcoe_2, True)
 
-    result_1 = {'Winner': york_simcoe_1, 'Loser': lakeshore_1, 'Home Goals': 2, 'Away Goals': 1}
-    result_2 = {'Winner': None, 'Loser': None, 'Home Goals': 5, 'Away Goals': 5}
-    result_3 = {'Winner': york_simcoe_2, 'Loser': lakeshore_2, 'Home Goals': 5, 'Away Goals': 0}
-    result_4 = {'Winner': tri_county_1, 'Loser': bluewater, 'Home Goals': 0, 'Away Goals': 3}
-    result_5 = {'Winner': york_simcoe_1, 'Loser': tri_county_3, 'Home Goals': 0, 'Away Goals': 2}
-    result_6 = {'Winner': tri_county_2, 'Loser': lakeshore_1, 'Home Goals': 1, 'Away Goals': 6}
-    result_7 = {'Winner': bluewater, 'Loser': lakeshore_2, 'Home Goals': 3, 'Away Goals': 6}
-    result_8 = {'Winner': york_simcoe_2, 'Loser': tri_county_1, 'Home Goals': 3, 'Away Goals': 6}
-    result_9 = {'Winner': tri_county_3, 'Loser': lakeshore_1, 'Home Goals': 4, 'Away Goals': 3}
-    result_10 = {'Winner': york_simcoe_1, 'Loser': tri_county_2, 'Home Goals': 1, 'Away Goals': 3}
+    # This section can be changed when the tournament starts, or if you would like to start the simulation from a certain moment within the tournament.
+    # Set the game variable to None in order to be simulated, and input the dictionary if a game has already been played.
+    # Examples:
+    # result_1 = {'Winner': york_simcoe_1, 'Loser': lakeshore_1, 'Home Goals': 2, 'Away Goals': 1}
+    # result_2 = {'Winner': None, 'Loser': None, 'Home Goals': 5, 'Away Goals': 5}
+    # ^^ the result_2 dictionary would be the example of a game that ended in a tie
+    
+    result_1 = None
+    result_2 = None
+    result_3 = None
+    result_4 = None
+    result_5 = None
+    result_6 = None
+    result_7 = None
+    result_8 = None
+    result_9 = None
+    result_10 = None
     result_11 = None
     result_12 = None
 
